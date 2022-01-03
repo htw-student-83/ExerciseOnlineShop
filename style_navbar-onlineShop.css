@@ -1,0 +1,65 @@
+.flex-container2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color:black;
+    border-bottom: 3px solid #d96c06;
+}
+
+.logo_text{
+    width: 20%;
+    color: white;
+}
+
+.logo_text, .teilschrift-oben{
+    text-align: center;
+    font-size: 11pt;
+}
+
+.logo_text img{
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.logo_text, .teilschrift-unten{
+    font-family:initial;
+    text-align: center;;
+    font-size: 16pt;
+    color:#2292A4;
+    margin-top: -3px;
+}
+
+
+.online{
+    font-size: 15pt;
+}
+
+span{
+    font-size: 20pt;
+}
+
+.menu ul{
+    margin-top: 55px;
+
+}
+
+.menu ul li{
+    float: left; 
+    color: white;
+    font-size: 11pt;
+    list-style-type: none;
+    padding-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu ul li:hover{
+    color: #d96c06;
+    cursor: pointer;   
+}
+
+.menu ul li:active{
+    color: yellow;
+    cursor: pointer;   
+}

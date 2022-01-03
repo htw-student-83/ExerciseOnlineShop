@@ -1,0 +1,191 @@
+.main h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-family:"fantasy";
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 75%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.auswahl h3{
+    font-size: 14pt;
+    color: rgb(14, 123, 173);
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.auswahl p{
+    font-size:12pt;   
+    font-weight: 600;   
+    font-family:"fantasy";
+    color: #5eb4db;
+    text-align: right;
+}
+
+.auswahl img{
+    width: 200px;
+    height: auto;
+    border: 1px solid rgb(14, 123, 173);
+    border-radius: 20px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.products>.auswahl{
+    margin-bottom: 30px;
+    padding: 0 13px;
+}
+
+
+.auswahl a{
+    text-decoration:none;
+    font-family:"fantasy";
+    text-transform: uppercase;
+    color:rgb(218, 196, 100);
+    font-weight: 800;
+}
+
+.sonderaktion{
+    background-color: black;
+}
+.sonderaktion h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-family:"fantasy";
+}
+
+.sonderaktion h2{
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family:"fantasy";
+}
+
+.konditionen{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color:#2292A4;
+    margin-top: -20px;
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
+}
+
+.konditionen h3{
+    font-size: 11pt;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+}
+
+.konditionen h5{
+    font-size: 10pt;
+    text-transform: uppercase;
+}
+
+.konditionen>div{
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.placeforinfos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    text-transform: uppercase;
+}
+
+.about{
+    color: white; 
+    width: 20%;
+}
+
+
+.about p{
+   line-height: 15pt;
+}
+
+
+.about h4{
+    margin-bottom: 40px;
+}
+
+
+.links{
+    text-align:left;
+    color: white;
+}
+
+.links h4{
+    margin-bottom: 31px;
+}
+
+.links p{
+    font-size: 10pt;
+    font-weight: 900;
+    margin: 5px 0;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+}
+
+.links a:hover{
+    color:orange;
+    cursor: pointer;
+}
+
+.infos{
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.infos h4{
+    margin-bottom: 40px;
+}
+
+.infos>p{
+    margin-bottom: 35px;
+}
+
+.newsletter{
+    color: white;
+}
+
+.newsletter h4{
+    margin-bottom: 40px;
+}
+
+.newsletter p{
+    margin-bottom: 20px;
+}
+ 
+
+input[type=text]{
+    width: 180px;
+    height: 16px;
+    font-weight: 900;
+    font-size: 8pt;
+    color: rgb(128, 123, 123);
+}
+
+input[type=submit] {
+    background:orange;
+    border: none;
+    color: white;
+    font-weight: 900;
+    font-size: 8pt;
+    padding: 3px 8px;
+}

@@ -1,0 +1,114 @@
+@media only screen and (max-width: 550px){
+    .bg-red{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media only screen and (max-width: 550px){
+    nav{
+        border-top: 0.5px solid #d96c06;
+    }
+
+    #menulinks>ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+}
+
+
+@media only screen and (max-width: 950px){
+    .flex-container2{
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    .menu ul{
+        margin-top: 30px;
+    }
+
+
+    .menu ul li{
+        line-height: 30px;
+    }
+
+
+    .konditionen{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .sonderaktion{
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .placeforinfos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .placeforinfos.about{
+        display: flex;
+        flex-flow: wrap;
+        flex-basis: 300px;  
+    }
+
+    .placeforinfos.links{
+        display: flex;
+        flex-flow: wrap;
+        flex-basis: 300px;
+    }
+
+    .placeforinfos.infos{
+        display: flex;
+        flex-flow: wrap;
+        flex-basis: 300px;
+    }
+
+    .placeforinfos.newsletter{
+        display: flex;
+        flex-flow: wrap;
+        flex-basis: 300px;
+    }
+}
+
+
+@media only screen and (max-width: 650px){
+    .placeforinfos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-around;
+    }
+
+    .placeforinfos .about{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 300px; 
+    }
+
+    .placeforinfos .links{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 300px; 
+    }
+
+    .placeforinfos .infos{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 300px; 
+    }
+
+    .placeforinfos .newsletter{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 300px; 
+    }
+}

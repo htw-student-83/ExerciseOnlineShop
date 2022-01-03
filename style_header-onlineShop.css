@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    background-color:#2292A4;
+    justify-content: space-around;
+    border-bottom: 3px solid #d96c06;
+}
+
+.telephone{
+    width: 200px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.text{
+    width: 250px;
+}
+
+.search input[type="search"]{
+    width: 180px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-size: 7.5pt;
+    font-weight:700;
+    color:grey;
+}
+
+#btnSearch{
+    vertical-align: center;
+    position: relative;
+    right: 30px;
+    background:transparent;
+    border:none;
+}
+
+#btnSearch>img{
+    height: 9px;
+    vertical-align: center;
+    position: relative;
+}
+
+.logocash{
+    width: 150px;
+    float: left;
+    margin-top: 8px;
+}
+
+.logocash img{
+    float: left;
+}
+
+p{
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 10pt;
+}
